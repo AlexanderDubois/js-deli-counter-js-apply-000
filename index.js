@@ -23,9 +23,13 @@ function currentLine(line) {
   }
   else {
     var names = ""
-    line.join(", ")
     for (var i = 0; i < line.length; i++) {
+
       names = names + (i + 1) + ". " + line[i]
+
+      if (i != (names.length - 1)) {
+      	names = names + ","
+      }
 
     }
 
