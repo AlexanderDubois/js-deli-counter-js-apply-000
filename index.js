@@ -28,7 +28,7 @@ function currentLine(line) {
       names = names + (i + 1) + ". " + line[i]
 
       if (i != (names.length - 1)) {
-      	names = names + ","
+      	names = names + ", "
       }
 
     }
